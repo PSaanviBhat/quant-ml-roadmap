@@ -1,14 +1,8 @@
 # Phase 4 – Specialization
 
-**Duration:** Months 19–24 (October 2027 – March 2028)
-
-Choose a specialization track and go deep. By the end of this phase you should have a portfolio strong enough to apply for junior Quant Researcher / ML Quant roles.
-
 ---
 
 ## Choose Your Track
-
-At the start of Phase 4, pick **one primary track** based on your interests and target roles.
 
 ---
 
