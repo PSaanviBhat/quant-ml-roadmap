@@ -14,10 +14,10 @@
 
 ##  Roadmap Overview
 
-| Phase | Focus | Duration | Status |
-|-------|-------|----------|--------|
+| Phase | Focus |
+|-------|-------|
 | [Phase 1](./phase1-foundations/) | Math + Python Foundations | 
-| [Phase 2](./phase2-ml-finance/) | Core ML + Financial Markets | 
+| [Phase 2](./phase2-ml-for-finance/) | Core ML + Financial Markets | 
 | [Phase 3](./phase3-algo-trading/) | Algorithmic Trading + Deep ML | 
 | [Phase 4](./phase4-specialization/) | Specialization + Real World |
 
