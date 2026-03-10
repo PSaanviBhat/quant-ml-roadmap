@@ -5,7 +5,7 @@ All resources used throughout the roadmap, organized by category.
 ## Mathematics
 
 ### Linear Algebra
-- [3Blue1Brown – Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab) ← Start here
+- [3Blue1Brown – Essence of Linear Algebra](https://www.youtube.com/playlist?list=PLZHQObOWTQDPD3MizzM2xVFitgF8hE_ab)
 - [Gilbert Strang MIT OCW 18.06](https://ocw.mit.edu/courses/18-06-linear-algebra-spring-2010/)
 - *Linear Algebra Done Right* – Sheldon Axler
 
