@@ -1,7 +1,5 @@
 # Phase 3 – Algorithmic Trading & Deep ML
 
-**Duration:** Months 13–18 (April 2027 – September 2027)
-
 Build real trading systems, implement advanced deep learning models, and explore reinforcement learning for portfolio management.
 
 ## Goals
@@ -14,7 +12,7 @@ Build real trading systems, implement advanced deep learning models, and explore
 
 ---
 
-## Module 1: Backtesting Framework (Weeks 1–4)
+## Module 1: Backtesting Framework 
 
 ### What is Backtesting?
 Simulating a trading strategy on historical data to estimate its performance before risking real capital.
@@ -36,7 +34,7 @@ Simulating a trading strategy on historical data to estimate its performance bef
 
 ---
 
-## Module 2: Trading Strategies (Weeks 5–8)
+## Module 2: Trading Strategies 
 
 ### Strategy 1: Momentum
 - Buy stocks that have performed well over the past N days
@@ -58,7 +56,7 @@ Simulating a trading strategy on historical data to estimate its performance bef
 
 ---
 
-## Module 3: Portfolio Optimization (Weeks 9–12)
+## Module 3: Portfolio Optimization
 
 ### Topics
 - [ ] Modern Portfolio Theory (Markowitz)
@@ -80,7 +78,7 @@ ef.portfolio_performance(verbose=True)
 
 ---
 
-## Module 4: Deep Learning (Weeks 1–6, parallel)
+## Module 4: Deep Learning 
 
 ### Topics
 - [ ] Neural networks from scratch
@@ -93,7 +91,7 @@ ef.portfolio_performance(verbose=True)
 
 ---
 
-## Module 5: LSTMs for Time Series (Weeks 9–12)
+## Module 5: LSTMs for Time Series 
 
 ### Topics
 - [ ] Sequence modeling fundamentals
@@ -106,7 +104,7 @@ ef.portfolio_performance(verbose=True)
 
 ---
 
-## Module 6: Reinforcement Learning (Weeks 13–18)
+## Module 6: Reinforcement Learning 
 
 ### Topics
 - [ ] MDP: States, Actions, Rewards, Policy
