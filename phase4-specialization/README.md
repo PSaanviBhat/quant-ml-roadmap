@@ -1,145 +1,122 @@
-# Phase 4 - Specialization and Real World
-Duration: Months 18 to 30 (September 2027 to September 2028)
+# Phase 4 – Specialization
 
-Go deep, publish work, build your network, and land your first internship or job.
+**Duration:** Months 19–24 (October 2027 – March 2028)
 
-## Phase Goals
+Choose a specialization track and go deep. By the end of this phase you should have a portfolio strong enough to apply for junior Quant Researcher / ML Quant roles.
 
-- Choose and master one specialization track deeply
-- Read and reproduce at least 2 research papers
-- Contribute to an open-source quant library
-- Publish 2+ technical articles
-- Apply to and land a quant internship
+---
 
-## Choose Your Specialization
+## Choose Your Track
 
-Pick ONE to go deep on. You can explore others later.
+At the start of Phase 4, pick **one primary track** based on your interests and target roles.
 
-### Track A: High-Frequency Trading (HFT)
-What it is: Strategies that hold positions for milliseconds to seconds. Speed and market microstructure understanding are key.
+---
 
-Topics:
-- Level 2 order book data
-- Bid-ask spread modeling
-- Market impact models
-- Latency and co-location concepts
-- Tick data processing
-- Order flow imbalance signals
+## Track A: Derivatives & Volatility
 
-Resources:
-- Trading and Exchanges by Larry Harris
-- Algorithmic and High-Frequency Trading by Cartea, Jaimungal, Penalva
+**Target roles:** Quant Analyst, Volatility Trader, Derivatives Quant
 
-### Track B: Derivatives Pricing
-What it is: Mathematical modeling of options, futures, and structured products.
+### Curriculum
+- [ ] Options pricing: Black-Scholes, binomial trees
+- [ ] Greeks: Delta, Gamma, Vega, Theta, Rho
+- [ ] Implied volatility and volatility surfaces
+- [ ] Stochastic volatility models: Heston, SABR
+- [ ] Interest rate models: Vasicek, CIR, Hull-White
+- [ ] Fixed income: bonds, duration, convexity, yield curves
+- [ ] Monte Carlo methods for derivatives pricing
+- [ ] Numerical methods: finite differences, PDE solvers
 
-Topics:
-- Stochastic calculus (Ito's Lemma)
-- Black-Scholes model derivation
-- Greeks: Delta, Gamma, Theta, Vega, Rho
-- Implied volatility and volatility surface
-- Monte Carlo simulation for pricing
-- Finite difference methods
+### Resources
+- *Options, Futures and Other Derivatives* – John Hull (full book)
+- *Stochastic Calculus for Finance I & II* – Shreve
+- QuantLib Python tutorials
 
-Resources:
-- Options, Futures and Other Derivatives by John Hull (full book)
-- Stochastic Calculus for Finance I and II by Shreve
-- QuantLib Python bindings
+### Capstone Project
+Build an options pricing and Greeks visualization dashboard. Price vanilla options, plot the vol surface from market data, and compare model vs market prices.
 
-### Track C: Systematic Macro and Factor Models
-What it is: Multi-asset strategies driven by economic factors and macro indicators.
+---
 
-Topics:
-- Fama-French factor models (Value, Momentum, Size)
-- Regime detection (Hidden Markov Models)
-- Macro data: GDP, inflation, yield curves
-- Cross-sectional momentum and mean reversion
-- Risk factor attribution
-- Alternative data (satellite, sentiment, web scraping)
+## Track B: High-Frequency Trading & Microstructure
 
-Resources:
-- Active Portfolio Management by Grinold and Kahn
-- Expected Returns by Antti Ilmanen
+**Target roles:** Quant Developer, HFT Researcher, Market Microstructure Analyst
 
-### Track D: ML Research for Finance
-What it is: Cutting-edge ML research applied to financial problems.
+### Curriculum
+- [ ] Market microstructure: order book mechanics, bid-ask spread
+- [ ] Adverse selection and market making
+- [ ] Optimal execution: VWAP, TWAP, Almgren-Chriss
+- [ ] Tick data processing and cleaning
+- [ ] Order flow imbalance as a signal
+- [ ] Latency and systems considerations
+- [ ] Statistical arbitrage at high frequency
 
-Topics:
-- Triple-barrier labeling method (Lopez de Prado)
-- Feature importance via MDI, MDA, SFI
-- Combinatorial purged cross-validation (CPCV)
-- Hierarchical Risk Parity (HRP)
-- Meta-labeling
-- Graph Neural Networks for financial networks
+### Resources
+- *Algorithmic Trading* – Ernest Chan (Chapters 8–12)
+- *Market Microstructure in Practice* – Lehalle & Laruelle
+- *An Introduction to High-Frequency Finance* – Dacorogna et al.
 
-Resources:
-- Advances in Financial Machine Learning by Lopez de Prado (read cover to cover)
-- Machine Learning for Asset Managers by Lopez de Prado
-- Journal of Financial Data Science - read recent papers
+### Capstone Project
+Build a market-making simulation: model the order book, implement a simple market-making strategy, and measure P&L as a function of spread and inventory risk.
 
-## Advanced Reading List
+---
 
-| Book | Why Read It |
-|------|-------------|
-| Advances in Financial Machine Learning by Lopez de Prado | The quant ML bible. Mandatory. |
-| Machine Learning for Asset Managers by Lopez de Prado | Companion to above, more applied |
-| The Elements of Statistical Learning by Hastie et al. | Deep ML theory (free PDF) |
-| Active Portfolio Management by Grinold and Kahn | Classic factor model framework |
-| Volatility Trading by Sinclair | Options strategies and vol modeling |
+## Track C: NLP & Alternative Data
 
-## Building Your Public Presence
+**Target roles:** Quant Researcher, Alternative Data Analyst, NLP Quant
 
-### Open Source Contributions
-- [ ] Fork PyPortfolioOpt and fix a bug or add a feature
-- [ ] Contribute to vectorbt documentation
-- [ ] Build a small utility library and publish on PyPI
-- [ ] Add example notebooks to QuantLib Python
+### Curriculum
+- [ ] NLP fundamentals: tokenization, embeddings, TF-IDF
+- [ ] Sentiment analysis on financial news and earnings calls
+- [ ] Transformer-based models for financial text (FinBERT)
+- [ ] Earnings call transcripts as alpha signals
+- [ ] Web scraping and data pipeline engineering
+- [ ] Event studies: measuring price reaction to news
+- [ ] Alternative data sources: satellite, credit card, web traffic
 
-### Writing
-- [ ] Write 2 technical articles on Medium or GitHub Pages
-  - Article 1: Your backtesting methodology and results
-  - Article 2: Deep dive into one technique (e.g., CPCV, HRP)
+### Resources
+- *Natural Language Processing with Transformers* – HuggingFace
+- FinBERT paper: https://arxiv.org/abs/1908.10063
+- [HuggingFace Learn](https://huggingface.co/learn)
 
-### Networking
-- [ ] LinkedIn profile updated with all projects
-- [ ] GitHub profile README with pinned quant repos
-- [ ] Join WorldQuant BRAIN and submit alphas
-- [ ] Attend local finance/ML meetups
+### Capstone Project
+Build a sentiment-driven trading signal using earnings call transcripts. Measure IC (Information Coefficient) of the signal vs next-week returns.
 
-## Internship Preparation
-
-### What Quant Firms Look For
-| Skill | How to Demonstrate |
-|-------|-------------------|
-| Mathematics | Coursework + explain it clearly in interviews |
-| Coding (Python/C++) | LeetCode + GitHub projects |
-| ML/Stats | Projects with rigorous methodology |
-| Finance knowledge | Can explain options, risk, market microstructure |
-| Research mindset | Published write-ups, paper reproductions |
-
-### Interview Prep Timeline (3 months before applying)
-- [ ] 50+ LeetCode Medium problems
-- [ ] Practice probability puzzles (e.g., 50 Challenging Problems in Probability)
-- [ ] Practice mental math and estimation
-- [ ] Review all ML fundamentals (be able to derive)
-- [ ] Prepare 3 project walkthroughs (clear narrative, results, limitations)
-- [ ] Mock interviews with peers
-
-### Where to Apply (India)
-- WorldQuant Remote Alpha research program (apply NOW, no experience needed)
-- Graviton Research Capital
-- Quadeye Securities
-- Tower Research Capital India
-- Alphagrep
-- iRage Capital
+---
 
 ## Phase 4 Completion Checklist
 
-- [ ] Chosen and deeply studied one specialization track
-- [ ] Read Advances in Financial Machine Learning fully
-- [ ] Reproduced 2 research papers
-- [ ] Contributed to an open-source quant library
-- [ ] Published 2 technical articles
-- [ ] Applied to WorldQuant BRAIN
-- [ ] Applied to at least 5 internships
-- [ ] Completed quant interview preparation
+- [ ] Selected specialization track
+- [ ] Completed specialization curriculum
+- [ ] Built capstone project
+- [ ] Wrote a technical writeup / blog post about the capstone
+- [ ] GitHub portfolio is clean and presentable
+- [ ] CV and LinkedIn updated
+- [ ] Started applying to Quant Researcher / ML Quant roles
+
+---
+
+## Career Preparation
+
+### Target Companies (India)
+- Graviton Research Capital
+- Tower Research Capital
+- Alphagrep
+- Quadeye
+- iRage Capital
+- WorldQuant
+
+### Target Companies (Global / Remote)
+- Jane Street
+- Two Sigma
+- Citadel
+- D.E. Shaw
+- AQR Capital
+
+### Interview Preparation
+- Brainteaser and probability puzzles: *A Practical Guide to Quantitative Finance Interviews* – Xinfeng Zhou (the "Green Book")
+- Coding (Python + C++): LeetCode Medium, NeetCode 150
+- ML theory: be able to derive and explain every model you use
+- Finance knowledge: derivatives, fixed income, market mechanics
+
+---
+
+*End of roadmap. The learning never stops, but this is the foundation.*
