@@ -1,7 +1,5 @@
 # Phase 1 – Foundations
 
-**Duration:** Months 1–6 (March 2026 – September 2026)
-
 Build the mathematical and programming foundation required for everything that follows.
 
 ## Goals
@@ -13,7 +11,7 @@ Build the mathematical and programming foundation required for everything that f
 
 ---
 
-## Module 1: Linear Algebra (Weeks 1–4)
+## Module 1: Linear Algebra
 
 ### Why it matters for Quant ML
 Covariance matrices, PCA, portfolio optimization, neural network weights — all linear algebra.
@@ -35,7 +33,7 @@ Covariance matrices, PCA, portfolio optimization, neural network weights — all
 
 ---
 
-## Module 2: Probability & Statistics (Weeks 5–8)
+## Module 2: Probability & Statistics 
 
 ### Why it matters for Quant ML
 Everything in finance is probabilistic. Returns are random variables. Risk is variance.
@@ -59,7 +57,7 @@ Everything in finance is probabilistic. Returns are random variables. Risk is va
 
 ---
 
-## Module 3: Python for Data Analysis (Weeks 1–8, parallel)
+## Module 3: Python for Data Analysis 
 
 ### Topics
 - [ ] Python basics: data types, control flow, functions, classes
@@ -76,7 +74,7 @@ Everything in finance is probabilistic. Returns are random variables. Risk is va
 
 ---
 
-## Module 4: Finance Basics (Weeks 9–12)
+## Module 4: Finance Basics 
 
 ### Topics
 - [ ] Asset classes: equities, fixed income, derivatives, commodities
