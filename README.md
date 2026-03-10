@@ -1,4 +1,4 @@
-# 🧠 Quant ML Roadmap — PSaanviBhat
+#  Quant ML Roadmap — PSaanviBhat
 ---
 
 ##  What is Quant ML?
