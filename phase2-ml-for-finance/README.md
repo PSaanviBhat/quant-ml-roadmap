@@ -1,7 +1,5 @@
 # Phase 2 – ML for Finance
 
-**Duration:** Months 7–12 (October 2026 – March 2027)
-
 Apply classical machine learning to financial data. Build intuition for what works and what doesn't in practice.
 
 ## Goals
@@ -13,7 +11,7 @@ Apply classical machine learning to financial data. Build intuition for what wor
 
 ---
 
-## Module 1: Core ML Algorithms (Weeks 1–4)
+## Module 1: Core ML Algorithms 
 
 ### Topics
 - [ ] Linear Regression and Regularization (Ridge, Lasso)
@@ -37,7 +35,7 @@ Apply classical machine learning to financial data. Build intuition for what wor
 
 ---
 
-## Module 2: Feature Engineering for Finance (Weeks 5–8)
+## Module 2: Feature Engineering for Finance 
 
 ### Raw Features from OHLCV
 - Open, High, Low, Close, Volume
@@ -72,7 +70,7 @@ df['feature'] = df['close'].rolling(20).mean().shift(1)
 
 ---
 
-## Module 3: Validation for Financial Data (Weeks 7–8)
+## Module 3: Validation for Financial Data 
 
 ### Why standard cross-validation fails in finance
 - Time series data is NOT i.i.d.
@@ -93,7 +91,7 @@ Test:                       [t2 ── t3]
 
 ---
 
-## Module 4: Time Series Analysis (Weeks 9–12)
+## Module 4: Time Series Analysis 
 
 ### Topics
 - [ ] Stationarity and the Augmented Dickey-Fuller test
