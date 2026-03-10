@@ -1,33 +1,29 @@
 # 🧠 Quant ML Roadmap — PSaanviBhat
-
-> **Started:** March 2026 | **Current Year:** 2nd Year Engineering (CS + AIML)  
-> **Goal:** Build a career in Quantitative Machine Learning
-
 ---
 
-## 🗺️ What is Quant ML?
+##  What is Quant ML?
 
 **Quantitative ML** sits at the intersection of:
-- 📊 **Quantitative Finance** — mathematical modeling of markets, pricing, risk
-- 🤖 **Machine Learning** — pattern recognition, prediction, automation
-- 💻 **Software Engineering** — building reliable, fast, production-grade systems
+-  **Quantitative Finance** — mathematical modeling of markets, pricing, risk
+-  **Machine Learning** — pattern recognition, prediction, automation
+-  **Software Engineering** — building reliable, fast, production-grade systems
 
 **Target Roles:** Quantitative Researcher · Quant Developer · ML Engineer (Finance) · Algorithmic Trader · Risk Quant
 
 ---
 
-## 📍 Roadmap Overview
+##  Roadmap Overview
 
 | Phase | Focus | Duration | Status |
 |-------|-------|----------|--------|
-| [Phase 1](./phase1-foundations/) | Math + Python Foundations | Months 1–6 | 🔄 In Progress |
-| [Phase 2](./phase2-ml-finance/) | Core ML + Financial Markets | Months 6–12 | ⏳ Upcoming |
-| [Phase 3](./phase3-algo-trading/) | Algorithmic Trading + Deep ML | Months 12–18 | ⏳ Upcoming |
-| [Phase 4](./phase4-specialization/) | Specialization + Real World | Months 18–30 | ⏳ Upcoming |
+| [Phase 1](./phase1-foundations/) | Math + Python Foundations | 
+| [Phase 2](./phase2-ml-finance/) | Core ML + Financial Markets | 
+| [Phase 3](./phase3-algo-trading/) | Algorithmic Trading + Deep ML | 
+| [Phase 4](./phase4-specialization/) | Specialization + Real World |
 
 ---
 
-## ✅ Overall Progress Tracker
+##  Overall Progress Tracker
 
 ### Phase 1 — Foundations
 - [ ] Linear Algebra (3Blue1Brown + MIT OCW)
@@ -38,7 +34,7 @@
 - [ ] Data Structures & Algorithms (30 LeetCode problems)
 - [ ] Git & GitHub (GitHub Skills)
 - [ ] **Project:** Stock price data fetcher + visualizer
-- [ ] **Project:** GitHub portfolio repo setup ✅
+- [ ] **Project:** GitHub portfolio repo setup 
 
 ### Phase 2 — ML + Finance
 - [ ] Supervised Learning (Andrew Ng Coursera)
@@ -71,7 +67,7 @@
 
 ---
 
-## 🏢 Target Companies
+##  Target Companies
 
 | Type | Examples |
 |------|---------|
@@ -82,7 +78,7 @@
 
 ---
 
-## 🔑 Key Principles
+##  Key Principles
 
 1. **No data leakage** — the #1 mistake beginners make in financial ML
 2. **Backtest ≠ live performance** — always be skeptical of your own results
@@ -92,13 +88,13 @@
 
 ---
 
-## 📚 Resources
+##  Resources
 
 See the full curated list in [resources.md](./resources.md)
 
 ---
 
-## 📁 Repository Structure
+##  Repository Structure
 
 ```
 quant-ml-roadmap/
