@@ -2,7 +2,7 @@
 
 Last updated: March 2026
 
-## Phase 1 – Foundations (Mar 2026 – Sep 2026)
+## Phase 1 – Foundations 
 
 ### Mathematics
 - [ ] Linear Algebra – 3Blue1Brown series
@@ -32,7 +32,7 @@ Last updated: March 2026
 
 ---
 
-## Phase 2 – ML for Finance (Oct 2026 – Mar 2027)
+## Phase 2 – ML for Finance 
 
 ### ML Core
 - [ ] Andrew Ng ML Specialization (or fast.ai)
@@ -51,7 +51,7 @@ Last updated: March 2026
 
 ---
 
-## Phase 3 – Algo Trading & Deep ML (Apr 2027 – Sep 2027)
+## Phase 3 – Algo Trading & Deep ML 
 
 ### Algorithmic Trading
 - [ ] Backtesting framework (backtrader or vectorbt)
@@ -73,7 +73,7 @@ Last updated: March 2026
 
 ---
 
-## Phase 4 – Specialization (Oct 2027 – Mar 2028)
+## Phase 4 – Specialization 
 
 - [ ] Choose specialization track (Derivatives / HFT / NLP)
 - [ ] Complete specialization curriculum
@@ -82,9 +82,3 @@ Last updated: March 2026
 
 ---
 
-## Monthly Log
-
-### March 2026
-- Repository created
-- Roadmap structure finalized
-- Starting Phase 1
